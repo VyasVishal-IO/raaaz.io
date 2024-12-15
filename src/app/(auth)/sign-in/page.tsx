@@ -98,13 +98,13 @@ export default function SignInForm() {
                 control={form.control}
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-zinc-200">Email/Username</FormLabel>
+                    <FormLabel className="text-zinc-200">Email</FormLabel>
                     <div className="relative">
                       <Mail className="absolute left-3 top-2.5 h-5 w-5 text-zinc-400" />
                       <Input
                         {...field}
                         className="pl-10 bg-[#1A1A23] border-white/5 focus:border-blue-500 focus:ring-blue-500 placeholder-zinc-400 text-white"
-                        placeholder="Enter your email or username"
+                        placeholder="Enter your email "
                       />
                     </div>
                     <FormMessage className="text-red-400" />
