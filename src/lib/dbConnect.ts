@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = 'mongodb+srv://vyasvishaldev:dKPNG0Dd93qdSZ14@mydatabse.4gh12.mongodb.net/?retryWrites=true&w=majority&appName=mydatabse';
+const MONGODB_URI = 'mongodb+srv://vyasvishaldev:vyasvishal@mydatabse.4gh12.mongodb.net/?retryWrites=true&w=majority&appName=mydatabse';
 
 type ConnectionObject = {
   isConnected?: number;
