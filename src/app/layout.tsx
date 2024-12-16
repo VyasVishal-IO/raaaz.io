@@ -7,7 +7,7 @@ import { Toaster } from '@/components/ui/toaster';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'SecureEcho',
+  title: 'Raaaz.io',
   description: 'Real feedback from real people.',
 };
 
